@@ -19,40 +19,10 @@
       "id": "6zXoAtX2KHk"
     },
     {
-      "title": "asdfaf",
-      "body": "hellosdfsaf",
-      "author": "yoshi",
-      "id": "VgKMvpCBO3Q"
-    },
-    {
-      "title": "helloasdfasfasfasf",
-      "body": "hellosadfasfasfas",
-      "author": "yoshi",
-      "id": "eyJQy3NWNXY"
-    },
-    {
-      "title": "helloasdfasfasfasf",
-      "body": "hellosadfasfasfas",
-      "author": "yoshi",
-      "id": "CUKLf2uetqg"
-    },
-    {
-      "title": "helloasdfasfasf1yayayayay",
-      "body": "yayayayayyahello",
-      "author": "yoshi",
-      "id": "mxLo9X9QKNU"
-    },
-    {
-      "title": "1",
-      "body": "1",
+      "title": "hello ninjas again",
+      "body": "lorem ipsum",
       "author": "mario",
-      "id": "If_PTADd0JY"
-    },
-    {
-      "title": "2",
-      "body": "2",
-      "author": "mario",
-      "id": "Ea9uke8hsZg"
+      "id": "DzSe66nPPjM"
     }
   ],
   "$schema": "./node_modules/json-server/schema.json"
