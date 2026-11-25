@@ -1,5 +1,6 @@
 import { useHistory, useParams } from "react-router-dom";
 import useFetch from "./useFetch";
+import supabase from "./config/supabaseClient";
 
 const BlogDetails = () => {
     const { id } = useParams();
@@ -7,10 +8,19 @@ const BlogDetails = () => {
     const history = useHistory();
 
     const handleClick=() => {
-        fetch('http://localhost:8000/blogs/' + blog.id, {
-            method: 'DELETE'
-        }).then(() => {
-            history.push('/');
+        supabase
+            .from('blogs')
+            .delete()
+            .eq('id', blog.id)
+            .select()
+            .then(({data, error}) => {
+                if(error) {
+                    console.log(error);
+                }
+                if(data) {
+                    console.log('blog deleted');
+                    history.push('/');
+                }
         })
     }
 
